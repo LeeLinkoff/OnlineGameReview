@@ -12,7 +12,7 @@ import Button from '@mui/material/Button'
 import EditGameReview from './EditGameReview';
 
 
-const response = await fetch('http://127.0.0.1:81/games');
+const response = await fetch('https://onlinegamereviewsapi-dd1f095c2fa8.herokuapp.com/games');
 var rows = await response.json();
  
 
@@ -27,8 +27,8 @@ export default function GameDataTable()
   let dataExists = rows.length > 0 ? true : false;
   
   async function handleClickRemove(id) {
-   await fetch ("http://127.0.0.1:81/games/" + id, { method: 'DELETE' })
-   console.log("http://127.0.0.1:81/games/" + id)
+   await fetch ("https://onlinegamereviewsapi-dd1f095c2fa8.herokuapp.com/games/" + id, { method: 'DELETE' })
+   console.log("https://onlinegamereviewsapi-dd1f095c2fa8.herokuapp.com/games/" + id)
    window.location.reload();
   };
 

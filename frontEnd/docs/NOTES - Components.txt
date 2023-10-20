@@ -1,0 +1,17 @@
+* FrontEnd:
+  > https://leelinkoff.github.io/OnlineGameReview/
+  > https://github.com/LeeLinkoff/OnlineGameReview/tree/main/frontEnd
+  > Branch: gh-pages
+  > D:\MISC\PROJECTS - Misc\React\OnlineGameReview\frontEnd
+  > D:\MISC\PROJECTS - Misc\React\OnlineGameReview\Github Pages - Host
+
+
+
+
+* Backend API:
+  > https://onlinegamereviewsapi-dd1f095c2fa8.herokuapp.com/
+  > https://github.com/LeeLinkoff/OnlineGameReview/tree/main/backEnd
+  > https://git.heroku.com/onlinegamereviewsapi.git
+  > Branch: main
+  > D:\MISC\PROJECTS - Misc\React\OnlineGameReview\backEnd
+  > D:\MISC\PROJECTS - Misc\Heroku Back-End API Hosting\onlinegamereviewsapi

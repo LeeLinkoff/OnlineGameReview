@@ -34,7 +34,7 @@ export default function EditGameReview(props)
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
 
-      ><form method="POST" action={"http://localhost:81/games/"+selectedId}>
+      ><form method="POST" action={"https://onlinegamereviewsapi-dd1f095c2fa8.herokuapp.com/games/"+selectedId}>
         <DialogTitle id="alert-dialog-title">
           {"Edit Online Game Review"}
         </DialogTitle>
