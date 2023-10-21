@@ -1,0 +1,25 @@
+1) Make sure node, npm and git are installed
+
+
+2) Install gh-pages
+   > npm install gh-pages --save-dev
+
+
+3) Add a predeploy property and a deploy property to the scripts object
+   >  "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+
+
+4) Create remote repo in Github
+
+
+5) Associate local Git repo of project to newly created remote repo
+   > git remote add origin https://github.com/{username}/{repo-name}.git
+
+
+6) Build
+   > npm run predeploy
+
+
+7) Deploy to Github to host static built pages
+   > npm run deploy
